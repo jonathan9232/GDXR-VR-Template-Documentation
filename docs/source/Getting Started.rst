@@ -1,12 +1,13 @@
-#**Download Project Files**
+Download Project Files
 ======================
 
 .. _Download:
-
+ 
+ 
 Download
 ------------
 
-To use GDXR VR Template, first Download the Project Files From: [Patreon](https://www.patreon.com/posts/gdxr-vr-template-71744206)
+To download and use the GDXR VR Template for Unreal Engine 5, first Download the Project Files From: [Patreon](https://www.patreon.com/posts/gdxr-vr-template-71744206)
 
 
 Creating recipes
