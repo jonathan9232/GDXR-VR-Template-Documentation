@@ -1,5 +1,5 @@
-Download
-=====
+#**Download Project Files**
+======================
 
 .. _Download:
 
