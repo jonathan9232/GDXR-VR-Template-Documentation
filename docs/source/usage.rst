@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use GDXR VR Template, first Download the Project Files From: [Patreon] (https://www.patreon.com/posts/gdxr-vr-template-71744206?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator).
+To use GDXR VR Template, first Download the Project Files From: [Patreon] (https://www.patreon.com/posts/gdxr-vr-template-71744206?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator/).
 
 Creating recipes
 ----------------
