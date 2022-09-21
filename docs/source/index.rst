@@ -16,5 +16,5 @@ Contents
 
 .. toctree::
 
-   DownloadandDemos
+   ProjectFiles
    api
