@@ -8,7 +8,7 @@ Project Files
 -------------------------------
 
 **UE5.0.3**
-To download and use the GDXR VR Template first download the Project Files From avalible from Patreon:
+ To download and use the GDXR VR Template first download the Project Files From avalible from Patreon:
  https://www.patreon.com/posts/gdxr-vr-template-71744206/
 
 
