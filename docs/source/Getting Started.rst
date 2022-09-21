@@ -4,30 +4,15 @@ Download Project Files
 .. _Download:
  
  
-Download UE 5.0.3
-------------
+Download UE-5.0.3 Project Files
+-------------------------------
 
 To download and use the GDXR VR Template first download the Project Files From avalible from Patreon
 https://www.patreon.com/posts/gdxr-vr-template-71744206/
 
 
-Creating recipes
-----------------
+Download Demo 
+-------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+Oculus Quest 2 APK: https://mega.nz/file/eY5jGQqD
+Decryption Key: rJJXFGVakRu7a9xF3MfQlvfRKH0IF33-_rbeab29kHM
