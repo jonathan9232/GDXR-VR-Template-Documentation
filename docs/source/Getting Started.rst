@@ -12,7 +12,7 @@ Project Files
  https://www.patreon.com/posts/gdxr-vr-template-71744206/
 
 
-Platforom Demo's  
+Platform Demo's  
 -------------
 
 **Oculus Quest 2** 
