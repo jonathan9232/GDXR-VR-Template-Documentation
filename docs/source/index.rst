@@ -16,5 +16,5 @@ Contents
 
 .. toctree::
 
-   Getting Started
+   Project Files And Demo's
    api
