@@ -1,6 +1,6 @@
 Getting Started 
 ---------------
 
-* (Optional poroject Settings <https://github.com/signup>`_).
-* (VR preview <https://github.com/login>`_)
+* Optional poroject Settings
+* VR preview
 * Building The Project
