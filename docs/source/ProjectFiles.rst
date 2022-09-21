@@ -5,7 +5,7 @@ Download Project Files
  
  
 Project Files
--------------------------------
+^^^^^^^^^^^^^
 
 **UE5.0.3**
  To download and use the GDXR VR Template first download the Project Files From avalible from Patreon:
