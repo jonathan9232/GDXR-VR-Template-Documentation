@@ -6,8 +6,6 @@ Download Project Files
  
 Project Files
 ^^^^^^^^^^^^^
-<sup>This is a superscript text</sup>
-
 
 **UE5.0.3**
 -----------
