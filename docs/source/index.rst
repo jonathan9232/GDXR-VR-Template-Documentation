@@ -17,5 +17,5 @@ Contents
 .. toctree::
 
    ProjectFiles
-   Getting Started
+   GettingStarted
    api
