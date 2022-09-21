@@ -4,10 +4,11 @@ Download Project Files
 .. _Download:
  
  
-Download
+Download UE 5.0.3
 ------------
 
-To download and use the GDXR VR Template first download the Project Files From [Patreon](https://www.patreon.com/posts/gdxr-vr-template-71744206/).
+To download and use the GDXR VR Template first download the Project Files From avalible from Patreon
+https://www.patreon.com/posts/gdxr-vr-template-71744206/
 
 
 Creating recipes
