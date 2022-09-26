@@ -8,4 +8,5 @@ Template Features
    :maxdepth: 1
    
    SkeletalMeshHands
-   GazeComponent
+   GameInstance
+   Components
