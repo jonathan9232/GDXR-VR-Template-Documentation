@@ -18,3 +18,4 @@ Contents
    api
    Updates
    Features
+   MirrorHands
