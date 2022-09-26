@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Template for GDXR VR Tempalte
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This Github repo contains documentation created for the GDXR VR Template created with Unreal Engine 5 and Blueprint coding launguage. 
