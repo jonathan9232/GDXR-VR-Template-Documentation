@@ -19,3 +19,4 @@ Contents
    ProjectFiles
    GettingStarted
    api
+   Updates
