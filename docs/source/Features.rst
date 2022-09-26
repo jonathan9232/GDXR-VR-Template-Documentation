@@ -8,7 +8,19 @@ Features
 --------------
 
 
-**How To Mirror Hands**
-^^^^^^^^^^^^^^^^^^^^^^^
+  **How To Mirror Hands**
+  ^^^^^^^^^^^^^^^^^^^^^^^
 
 Open the VR pawn
+
+**Game instance**
+^^^^^^^^^^^^^^^^^
+
+**Grab Components**
+^^^^^^^^^^^^^^
+
+**Gaze interaction**
+^^^^^^^^^^^^^^^^^^^^
+
+**VR Hud**
+^^^^^^^^^^
