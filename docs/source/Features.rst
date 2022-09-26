@@ -1,7 +1,10 @@
-Features
-========
+Template Features
+=================
 
-- **VR hands**
+**Features**
+------------
+
+- VR hands
 - Game Instance
 - Grab Component
 - Draws
