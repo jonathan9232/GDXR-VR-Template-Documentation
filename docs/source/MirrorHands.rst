@@ -1,5 +1,5 @@
 Features
 ========
 
-**Mirror Skeletal mesh Hands**
+**Mirror Skeletal Mesh Hands**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
