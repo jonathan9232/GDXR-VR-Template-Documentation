@@ -1,13 +1,133 @@
 Build Updates
 =============
 
-GDXR VR Template Version 0.2 Download
+**GDXR VR Template Version 0.3.6**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Project Files Download Link:
+https://www.patreon.com/posts/gdxr-vr-template-72325309?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
+
+**Updates and Extra Features**
+
+**GrabComponent Re-design**
+---------------------------
+
+- Re designed the Grab component to only require blend space 1D animations for grabbing and playing trigger animations. This makes creating and modifying animations much easier. Blend space animations can use only one animation if the grabbed actor doesn't need a trigger animation. All blend Space 1D’s must have there maximum axis value set to “1”
+- Input Axis Trigger now runs through the Grab component and then to the grab components owned actor.
+- Simplified Grabbing components code such as Sliding objects, levers and draws now select the grab component set the grab type to Use Component and set the grab component class to Sliding Component or Lever Component
+- Simplified Grab Component Try Grab Function. Completely removed the snap VRHands code from the grab component. Now you just use snap and It will handle hands and controller positions. Previous code was just doing the same thing twice.
+- In the Grab component - Converted the Set hand and grip states into a function to allow for easier use. It also removes duplicated code cluttering the grab component Try Grab Function.
+
+**VR Hands**
+------------
+- Added - Check to see if mesh/skeleton has sockets for skeletal mesh hands to attach too. If not we notify developer using print string and set the skeletal mesh animation to grab animation.
+
+**Torch Example**
+-----------------
+
+-Added a Torch example that can be picked up and turned on and off using the trigger. Check user notes for more info
+
+**Weapon Update**
+-----------------
+
+⦁ Replaced and removed the Pistol Projectile (Yellow Sphere) with a line trace component. This allows us to cause damage to hit actors and provides an example on how to do damage to actors.
+
+**Gun Range**
+-------------
+
+- Added Small Gun range so users can shoot weapons and look at how to cause damage to actors. (Work in Progress - Will be used as a save game example). 
+
+**Fixes**
+---------
+- Fixed - Weapons/Grab components firing twice.
+- Fixed - Grab firing twice when using grab from distance.
+- Fixed - Skeletal mesh Hands now default to grab only Animation inside GrabComponent
+- Fixed - Environment Lighting
+- Fixed - Removed Cast to VR pawn node in grab component. Now utilised VRInteractionBPI to reset player Skeletal mesh hands to there correct location on release. Now located in the VRPawn Blueprint
+- Fixed - Removed Cast node in Grab Component Try Grab. Now we get the motion controller only once directly from the VR Pawn.
+- Fixed - Hands now release from draws.
+- Fixed - Grab component class is now hidden by default 
+- Fixed - Player no longer moves backwards when grabbing from a distance with the left hand.
+
+**User Notes**
+--------------
+
+I enabled Support Moveable Spotlights in Project settings > Rendering > Mobile Shader Permutation Reduction to create the torch example. If you don't need the torch on Quest or movable spot lights I highly recommend disabling this option.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**GDXR VR Template Version 0.3**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Project Files Download Link:
+https://www.patreon.com/posts/gdxr-vr-template-71744206?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
+
+**Updates and Extra Features**
+
+**New Load Screen Example**
+---------------------------
+
+- Added Load Screen example is activated with the VR_GameInstance on initialize and removed after 5 seconds of player loading from inside VR_Pawn (From begin play exec).
+- Added Custom Blueprint Function Library to allow loading screens to be activated from any actor.
+
+**New UMG Screen Fade Example**
+-------------------------------
+
+- Added UMG screen fade example to have custom fade effects. Check out the APK bellow to see it in action.
+- UMG restart button shows screen fade and load screen examples. 
+- Added screen fade example to UMG restart button.
+
+**Grab From Distance Update**
+-----------------------------
+
+_ Converted all grab from distance logic into a component to clean up the VR pawn and for easier readability.
+_ added the ability to disable Grab From a distance without having to remove components. - Select GFDControllerComponent in VR pawn components list and set “Use Grab From Distance to False”
+- Disabled Teleportation when grabbing from a distance.
+- Disabled grabbing from a distance when menu is open.
+
+**Inputs**
+----------
+
+- Grab right and grab left Input Actions now use an interface to activate, Required for grabbing from a distance as grab pressed needs to be automatically fired. this stops events being repeated.
+
+**Draws/Sliding Actors**
+------------------------
+
+- Stopped Draws/sliding objects from snapping to the hand position on first grabbed. Now they smoothly move to it.
+
+**Gaze Interaction Component**
+------------------------------
+- Added the ability to disable the gaze component without removing it from the VRPawn Components list. - Select GazeInteractionComponent and disable/enable “Use Gaze Component”, This will also disable the gaze components event tick so it will be cheaper. (Cannot be changed at runtime).
+
+**Fixes**
+---------
+⦁ Fixed - a bug where objects grabbed from a distance would bounce if the thumbstick was pushed while held.
+⦁ Fixed - hand not switching when grabbing objects/actors from a distance.
+⦁ Fixed - hand animations not playing correctly after releasing Grabbed from distance actor.
+⦁ Fixed - a bug where grab from distance trace would disappear after ending over lap of an actor/object
+⦁ Fixed - Draws not returning to correct position
+⦁ Fixed - Reference issue with WB_VRHud. not getting player reference on creation. Now does a pure cast to get player.
+⦁ Fixed - hands not appearing after switching to controllers and back again.
+⦁ Fixed - Objects not falling if hit from grab from distance trace.
+⦁ Fixed - Made variables not used in components private for easier readability and to stop accidental modification
+
+**User Notes**
+
+I’ve converted the project to use Vulkan preview rendering level to get color to work better on Quest two. VR Preview does not work on pc with it enable (Shows Black Screen) so make sure to disable it in editor before trying to play on PC. The lighting will become bright as I’m upping it for Quest as it can be dark. To set it to normal. Find the Directional light in Outliner and set intensity to 5. 
+
+To simply load new level and activate screen fade and load screen. From any actor/blueprint Get player pawn, cast to VR pawn (Convert to pure cast) and then can load new level event. place the level you wan to load in the name box. When level loads the load screen will automatically be removed after 3 seconds and call the fade to scene interface being listened to by the WB_Screenfade.
+
+I've also just got my hands on some OG Vive controllers so I can begin looking at setting up the project for Vive and Valve Index Inputs.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**GDXR VR Template Version 0.2**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Download Link:
 https://www.patreon.com/posts/gdxr-vr-template-71442004?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
-Updates and Extra Features
+**Updates and Extra Features**
 
 **Player Health**
 -----------------
@@ -60,7 +180,7 @@ Let me know of any bugs you find over in gdxr_vr_template
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-GDXR VR Template Version 0.1 Download
+**GDXR VR Template Version 0.1**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Download Link 
