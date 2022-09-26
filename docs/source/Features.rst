@@ -9,6 +9,6 @@ Features
 
 
 **How To Mirror Hands**
-=======================
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Open the VR pawn
