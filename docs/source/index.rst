@@ -18,5 +18,4 @@ Contents
    api
    Updates
    GazeInteraction
-   TemplateFeatures
-   - Hands
+   Features
