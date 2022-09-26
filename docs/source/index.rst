@@ -17,5 +17,4 @@ Contents
    GettingStarted
    api
    Updates
-   GazeInteraction
    Features
