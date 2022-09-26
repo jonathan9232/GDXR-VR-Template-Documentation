@@ -20,3 +20,8 @@ Template Features
 - Load Screens
 - Gun Range
 - Tourch Example
+
+
+.. toctree::
+   :maxdepth: 1
+
