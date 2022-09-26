@@ -1,4 +1,4 @@
-Build Updates
+Updates & Fixes
 =============
 
 **GDXR VR Template Version 0.3.6**
