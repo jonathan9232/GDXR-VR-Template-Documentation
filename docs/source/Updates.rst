@@ -2,11 +2,12 @@ Build Updates
 =============
 
 GDXR VR Template Version 0.1 Download
+-------------------------------------
 
 Download Link 
 https://www.patreon.com/posts/ue5-gdxr-vr-wip-70242913?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
-What It Includes
+--**What It Includes**__
 
 Movement
 --------
