@@ -101,15 +101,15 @@ _ added the ability to disable Grab From a distance without having to remove com
 
 **Fixes**
 ---------
-⦁ Fixed - a bug where objects grabbed from a distance would bounce if the thumbstick was pushed while held.
-⦁ Fixed - hand not switching when grabbing objects/actors from a distance.
-⦁ Fixed - hand animations not playing correctly after releasing Grabbed from distance actor.
-⦁ Fixed - a bug where grab from distance trace would disappear after ending over lap of an actor/object
-⦁ Fixed - Draws not returning to correct position
-⦁ Fixed - Reference issue with WB_VRHud. not getting player reference on creation. Now does a pure cast to get player.
-⦁ Fixed - hands not appearing after switching to controllers and back again.
-⦁ Fixed - Objects not falling if hit from grab from distance trace.
-⦁ Fixed - Made variables not used in components private for easier readability and to stop accidental modification
+- Fixed - a bug where objects grabbed from a distance would bounce if the thumbstick was pushed while held.
+- Fixed - hand not switching when grabbing objects/actors from a distance.
+- Fixed - hand animations not playing correctly after releasing Grabbed from distance actor.
+- Fixed - a bug where grab from distance trace would disappear after ending over lap of an actor/object
+- Fixed - Draws not returning to correct position
+- Fixed - Reference issue with WB_VRHud. not getting player reference on creation. Now does a pure cast to get player.
+- Fixed - hands not appearing after switching to controllers and back again.
+- Fixed - Objects not falling if hit from grab from distance trace.
+- Fixed - Made variables not used in components private for easier readability and to stop accidental modification
 
 **User Notes**
 
