@@ -11,50 +11,50 @@ Updates and Extra Features
 
 **Player Health**
 -----------------
-⦁ Added player health bar example to WB_VRHud (Which pulls health data from Game Instance).
-⦁ Implemented Damage System example (UE5’s Default System).
-⦁ Damage Health Pad Example
-⦁ Heal Health Pad Example
+- Added player health bar example to WB_VRHud (Which pulls health data from Game Instance).
+- Implemented Damage System example (UE5’s Default System).
+- Damage Health Pad Example
+- Heal Health Pad Example
 
 **Grab From Distance Rebuild**
 ------------------------------
-⦁ Re-Built Grab from distance code. Use the grip button to activate pointer when hitting Grab from distance object pull back on thumbstick to snap object to your hand. (This took the most amount of time - Sorry).
-⦁ Added Grab From Distance VFX Pointer
+- Re-Built Grab from distance code. Use the grip button to activate pointer when hitting Grab from distance object pull back on thumbstick to snap object to your hand. (This took the most amount of time - Sorry).
+- Added Grab From Distance VFX Pointer
 
 **New Mobile VR Graphics Showcase**
 -----------------------------------
-⦁ New Mobile Graphics Showcase (Localized Reflection Example = Material based Reflections similar to the Quest 2 game "Red Matter") - This will be moved to a new level as its own dedicated example. 
+- New Mobile Graphics Showcase (Localized Reflection Example = Material based Reflections similar to the Quest 2 game "Red Matter") - This will be moved to a new level as its own dedicated example. 
 
 **VR hands**
 ------------
-⦁ Fixed hand mesh staying attached to actors after swapping hands.
-⦁ Re organized C_SkeletHand Component to stop confusion. Default skeletal mesh can now be seen in the VR pawn hand component. 
+- Fixed hand mesh staying attached to actors after swapping hands.
+- Re organized C_SkeletHand Component to stop confusion. Default skeletal mesh can now be seen in the VR pawn hand component. 
 
 **Movement**
 ------------
-⦁ Fixed Swift locomotion speed an accuracy so you move to intended location, not short of it.
-⦁ Fixed Smooth Locomotion Sprinting. You can now sprint by pressing the Right Thumbstick on Quest 2. (I need to set up input for different HMD's) 
+- Fixed Swift locomotion speed an accuracy so you move to intended location, not short of it.
+- Fixed Smooth Locomotion Sprinting. You can now sprint by pressing the Right Thumbstick on Quest 2. (I need to set up input for different HMD's) 
 
 **VR Pawn**
 -----------
-⦁ Organized The VRPawn Variables
+- Organized The VRPawn Variables
 
 **Game Instance**
 -----------------
-⦁ Added A Game Instance to the project for storing variables. Health example included and a variable to store the VR pawn. You can see how these examples work by opening the WB_VRHud. Where I use the game instance to access the VR pawn where health is updated via an event dispatcher. 
-⦁ Attach the GrabFromDistanceComponent to any movable skeletal or static mesh with the GrabComponent
+- Added A Game Instance to the project for storing variables. Health example included and a variable to store the VR pawn. You can see how these examples work by opening the WB_VRHud. Where I use the game instance to access the VR pawn where health is updated via an event dispatcher. 
+- Attach the GrabFromDistanceComponent to any movable skeletal or static mesh with the GrabComponent
 
  (Requested) - Ability to Mirror Skeletal Hand Animations
-⦁ Added the ability to use mirrored hand animations to make creating animations easier so you don't have to make animations twice unless you need to or want to.
+- Added the ability to use mirrored hand animations to make creating animations easier so you don't have to make animations twice unless you need to or want to.
 
 **How To Mirror Hands**
 -----------------------
 
-⦁ In VR pawn select the hand you want to mirror, I recommend selecting the left hand (No particular reason). 
-⦁ Set the skeletal mesh to the same as the opposite hand, in this case VR_Hand_Right
-⦁ Change the Animation Class to AB_RightHand_C 
-⦁ Change the left hand components Y Scale value to minus the number in the slot. In the template this would be -0.9 
-⦁ You now have mirrored hand setup. 
+- In VR pawn select the hand you want to mirror, I recommend selecting the left hand (No particular reason). 
+- Set the skeletal mesh to the same as the opposite hand, in this case VR_Hand_Right
+- Change the Animation Class to AB_RightHand_C 
+- Change the left hand components Y Scale value to minus the number in the slot. In the template this would be -0.9 
+- You now have mirrored hand setup. 
 
 Let me know of any bugs you find over in gdxr_vr_template
 
