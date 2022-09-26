@@ -10,3 +10,7 @@ Template Features
    SkeletalMeshHands
    GameInstance
    Components
+   GameInstance
+   MovementModes
+   PlayerHealth
+   ScreenFade
