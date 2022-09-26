@@ -15,6 +15,5 @@ Contents
 
    ProjectFiles
    GettingStarted
-   api
    Updates
    Features
