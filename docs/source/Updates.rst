@@ -4,7 +4,7 @@ Build Updates
 **GDXR VR Template Version 0.3.6**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Project Files Download Link:
+**Project Files Download Link:**
 https://www.patreon.com/posts/gdxr-vr-template-72325309?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
 **Updates and Extra Features**
@@ -59,7 +59,7 @@ I enabled Support Moveable Spotlights in Project settings > Rendering > Mobile S
 **GDXR VR Template Version 0.3**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Project Files Download Link:
+**Project Files Download Link:**
 https://www.patreon.com/posts/gdxr-vr-template-71744206?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
 **Updates and Extra Features**
@@ -124,7 +124,7 @@ I've also just got my hands on some OG Vive controllers so I can begin looking a
 **GDXR VR Template Version 0.2**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Download Link:
+**Project Files Download Link:**
 https://www.patreon.com/posts/gdxr-vr-template-71442004?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
 **Updates and Extra Features**
@@ -183,10 +183,10 @@ Let me know of any bugs you find over in gdxr_vr_template
 **GDXR VR Template Version 0.1**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Download Link 
+**Project Files Download Link:**
 https://www.patreon.com/posts/ue5-gdxr-vr-wip-70242913?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator
 
-What It Includes
+**What It Includes**
 
 **Movement**
 ------------
