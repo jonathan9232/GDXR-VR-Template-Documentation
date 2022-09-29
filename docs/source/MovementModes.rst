@@ -25,7 +25,7 @@ The example currently uses cast nodes to communicate with the VRPawn blueprint t
 
 located in: Content>VRTemplate>UMG
 
-.. image:: images/movementimages/movementumgexample.PNG
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/movementumgexample.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
@@ -38,21 +38,21 @@ To change the movement mode in the VRPawn before game play begins, you can check
 
 2. Make sure the "UseShiftLocomotion" variable is set to "False".
 
-.. image:: images/movementimages/shiftmovementvariable.PNG
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/shiftmovementvariable.PNGages/movementimages/shiftmovementvariable.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
-.. image:: images/movementimages/shiftmovementvariableFalse.PNG
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/shiftmovementvariableFalse.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
 3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
 
-.. image:: images/movementimages/smoothlocomotionvariable.PNG
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/smoothlocomotionvariable.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
-.. image:: images/movementimages/smoothmovementvariableFalse.PNG
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/smoothmovementvariableFalse.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
