@@ -9,7 +9,7 @@ The GDXR VR Template contains a game mode called VR_GameInstance located in Cont
 The game instance is set in project setting > Maps And Modes > Game Instance Class.
 
 .. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/gameinstance/projectgameinstance.PNG
-  :width: 400
+  :width: 700
   :alt: project settings located in game instance.
 
 By default the game instance contains a set of variables used for external examples and and section of code which fires when the game begins. 
@@ -20,7 +20,7 @@ By default the game instance contains a set of variables used for external examp
 The code used inside the game instance is used to create/show the XR load screen exmple. This uses a custom function called "Show XR load Screen"
 
 .. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/gameinstance/gameinstanceloadscreen.PNG
-  :width: 400
+  :width: 700
   :alt: project settings located in game instance.
 
 For more infomation on how this works, you can check the load screen section. 
