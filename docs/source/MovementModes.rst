@@ -42,13 +42,9 @@ To change the movement mode in the VRPawn before game play begins, you can check
   :width: 400
   :alt: Shift movement variable
 
-------------------
-
 .. image:: /images/movementimages/shiftmovementvariableFalse.PNG
   :width: 400
   :alt: shift movement variable set to false
-
---------------------------------------------------------------------------------------------------------------------------------
 
 3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
 
@@ -56,15 +52,11 @@ To change the movement mode in the VRPawn before game play begins, you can check
   :width: 400
   :alt: smooth locomotion variable
 
-----------------------------
-
 .. image:: /images/movementimages/smoothmovementvariableFalse.PNG
   :width: 400
   :alt: smooth locomotion variable set to false.
 
 Doing this will enable telleport movement.
-
------------------------------------------------------------------------------------------
 
 **Smooth Locomotion**
 ^^^^^^^^^^^^^^^^^^^^^
