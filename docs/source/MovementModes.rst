@@ -6,9 +6,9 @@ Movement Types
 
 The GDXR VR Template contains three movement types built directly into the VRPawn Blueprint.
  
-- Telleport movement
+- Telleport locomotion
 - Smooth locomotion
-- Shift movement
+- Shift locomotion
 
 The template use telleport movement by default but this can be changed as desired.  
 
@@ -21,22 +21,47 @@ There are two ways of switching movement types
 
 If you wish to change the movement type at runtime there is an exmple for how to do so located inside the UMG Example WB_MovementType.
 
-located in: Content\VRTemplate\UMG
+The example currently uses cast nodes to communicate with the VRPawn blueprint to set the necessey variables. This will be updated to work with Event Dispatchers for easier modification.
 
-.. image:: images/movementtypes/SwitchMovementExample - Copy.PNG
+located in: Content>VRTemplate>UMG
+
+.. image:: images/movementimages/movementumgexample.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
+To change the movement mode in the VRPawn before game play begins, you can check out the sections bellow for each movement type. 
 
-**Telleport Movement**
+**Telleport Locomotion**
 ^^^^^^^^^^^^^^^^^^^^^^
 
+1. Open the VRPawn blueprint located in Content>VRTemplate>Blueprints>VRPawn
 
+2. Make sure the "UseShiftLocomotion" variable is set to "False".
+
+.. image:: images/movementimages/shiftmovementvariable.PNG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+
+.. image:: images/movementimages/shiftmovementvariableFalse.PNG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+
+3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
+
+.. image:: images/movementimages/smoothlocomotionvariable.PNG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+
+.. image:: images/movementimages/smoothmovementvariableFalse.PNG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+
+Doing this will enable telleport movement.
 
 **Smooth Locomotion**
 ^^^^^^^^^^^^^^^^^^^^^
 
 
 
-**Shift Movement**
+**Shift Locomotion**
 ^^^^^^^^^^^^^^^^^^
