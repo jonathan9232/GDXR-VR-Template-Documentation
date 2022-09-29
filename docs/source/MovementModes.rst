@@ -27,7 +27,7 @@ located in: Content>VRTemplate>UMG
 
 .. image:: /images/movementimages/movementumgexample.PNG
   :width: 400
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+  :alt: movement umg example
 
 To change the movement mode in the VRPawn before game play begins, you can check out the sections bellow for each movement type. 
 
@@ -40,21 +40,21 @@ To change the movement mode in the VRPawn before game play begins, you can check
 
 .. image:: /images/movementimages/shiftmovementvariable.PNGages/movementimages/shiftmovementvariable.PNG
   :width: 400
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+  :alt: Shift movement variable
 
 .. image:: /images/movementimages/shiftmovementvariableFalse.PNG
   :width: 400
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+  :alt: shift movement variable set to false
 
 3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
 
 .. image:: /images/movementimages/smoothlocomotionvariable.PNG
   :width: 400
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+  :alt: smooth locomotion variable
 
 .. image:: /images/movementimages/smoothmovementvariableFalse.PNG
   :width: 400
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
+  :alt: smooth locomotion variable set to false.
 
 Doing this will enable telleport movement.
 
