@@ -21,11 +21,11 @@ There are two ways of switching movement types
 
 If you wish to change the movement type at runtime there is an exmple for how to do so located inside the UMG Example WB_MovementType.
 
-located in: Content>VRTemplate>UMG
+located in: Content\VRTemplate\UMG
 
-.. image:: images/MovementTypes/SwitchMovementExample.PNG
-  :width: 500
-  :alt: Example of Switch Movement code casting to the VRPawn to update movement types.
+.. image:: \images\movementtypes\SwitchMovementExample.PNG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
 
 **Telleport Movement**
