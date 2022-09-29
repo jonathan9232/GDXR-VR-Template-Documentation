@@ -25,9 +25,6 @@ located in: Content\VRTemplate\UMG
 
 ----------------------------------------------------------------------------
 
-.. image:: Images/MovementTypes/SwitchMovementExample.PNG
-  :width: 600
-  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
 ----------------------------------------------------------------------------
 
