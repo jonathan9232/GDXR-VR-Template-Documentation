@@ -21,9 +21,9 @@ There are two ways of switching movement types
 
 If you wish to change the movement type at runtime there is an exmple for how to do so located inside the UMG Example WB_MovementType.
 
-located in: Content\VRTemplate\UMG
+located in: Content>VRTemplate>UMG
 
-.. image:: \images\MovementTypes\SwitchMovementExample.PNG
+.. image:: images/MovementTypes/SwitchMovementExample.PNG
   :width: 600
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
