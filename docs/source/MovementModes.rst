@@ -25,7 +25,7 @@ located in: Content>VRTemplate>UMG
 
 ---------------------------------------------------------------------------------------
 
-.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/87bd116ded0574b5c61273163560529da2fd712f/images/Loadscreens/SwitchMovementExample.PNG
+.. image:: /images/Loadscreens/SwitchMovementExample.PNG
   :width: 700
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
