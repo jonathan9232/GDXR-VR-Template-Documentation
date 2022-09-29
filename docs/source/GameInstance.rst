@@ -8,7 +8,7 @@ The GDXR VR Template contains a game mode called VR_GameInstance located in Cont
 
 The game instance is set in project setting > Maps And Modes > Game Instance Class.
 
-.. image:: /images/projectgameinstance.PNG
+.. image:: /images/gameinstance/projectgameinstance.PNG
   :width: 700
   :alt: project settings located in game instance.
 
