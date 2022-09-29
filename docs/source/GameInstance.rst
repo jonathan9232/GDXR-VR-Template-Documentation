@@ -24,3 +24,7 @@ The code used inside the game instance is used to create/show the XR load screen
   :alt: project settings located in game instance.
 
 For more infomation on how this works, you can check the load screen section. 
+
+.. image:: images/Capture.PNG
+  :width: 700
+  :alt: project settings located in game instance.
