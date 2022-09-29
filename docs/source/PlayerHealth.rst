@@ -7,8 +7,8 @@
 
 ----------------------------------------------------------------------------------
 .. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/Images/VRhud/1.PNG
-   :width: 200px
-   :height: 300px
-   :scale: 50 %
+   :width: 200
+   :height: 300
+   :scale: 50
    :alt: alternate text
-   :align: right
+   
