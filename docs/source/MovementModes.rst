@@ -48,7 +48,7 @@ To change the movement mode in the VRPawn before game play begins, you can check
 
 3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
 
-.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/images/movementimages/smoothlocomotionvariable.PNG
+.. image:: images/movementimages/smoothlocomotionvariable.PNG
   :width: 400
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
