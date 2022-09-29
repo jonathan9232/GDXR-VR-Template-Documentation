@@ -1,4 +1,7 @@
 **Player Heatlh**
 ^^^^^^^^^^^^^^^^^
 
-[[https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/Images/VRhud/1.JPG]]
+.. image:: https://github.com/jonathan9232/GDXR-VR-Template-Documentation/blob/main/Images/VRhud/1.JPG
+  :width: 400
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list. 
+
