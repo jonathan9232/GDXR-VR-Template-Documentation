@@ -38,13 +38,15 @@ To change the movement mode in the VRPawn before game play begins, you can check
 
 2. Make sure the "UseShiftLocomotion" variable is set to "False".
 
-.. image:: /images/movementimages/shiftmovementvariable.PNGages/movementimages/shiftmovementvariable.PNG
+.. image:: /images/movementimages/shiftmovementvariable.PNG
   :width: 400
   :alt: Shift movement variable
 
 .. image:: /images/movementimages/shiftmovementvariableFalse.PNG
   :width: 400
   :alt: shift movement variable set to false
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 3. Make sure the "UseSmoothLocomotion" Variable is set to "False"
 
