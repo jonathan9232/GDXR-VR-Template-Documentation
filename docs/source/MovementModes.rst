@@ -23,24 +23,20 @@ If you wish to change the movement type at runtime there is an exmple for how to
 
 located in: Content\VRTemplate\UMG
 
-----------------------------------------------------------------------------
+.. image:: Images/MovementTypes/SwitchMovementExample.PNG
+  :width: 600
+  :alt: VR Hud Component displayed in the VR Pawn Bleprint component list.
 
-
-----------------------------------------------------------------------------
 
 **Telleport Movement**
 ^^^^^^^^^^^^^^^^^^^^^^
 
 
-----------------------------------------------------------------------------
+
 **Smooth Locomotion**
 ^^^^^^^^^^^^^^^^^^^^^
 
 
-----------------------------------------------------------------------------
+
 **Shift Movement**
 ^^^^^^^^^^^^^^^^^^
-
-
-
-----------------------------------------------------------------------------
