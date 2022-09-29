@@ -8,5 +8,4 @@ VR HUD UMG Display
   :alt: VR Hud Component displayed in the VR Pawn Bleprint component list. 
   
   ------------------------------------------------------------------------------------------------------------------------------
-  
-  https://youtu.be/isWyNnP9A88
+ 
