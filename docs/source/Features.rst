@@ -14,3 +14,4 @@ Template Features
    MovementModes
    PlayerHealth
    ScreenFade
+   VRHud
